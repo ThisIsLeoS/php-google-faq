@@ -28,14 +28,11 @@
 
   <!-- main -->
   <main>
-    <?php foreach ($FAQ as $elem): ?>
-      <h2>
-        <?php echo ($elem["question"]); ?>
-      </h2>
-      <p>
-        <?php echo ($elem["answer"]); ?>
-      </p>
-    <? endforeach; ?>
+    <ul>
+      <?php
+        foreach ($FAQ as $elem) printFAQElem($elem);
+      ?>
+    </ul>
   </main>
   <!-- /main -->
 
