@@ -1,0 +1,38 @@
+/* reset rules */
+    h1, h2, ol, p, ul {
+
+        /* to overwrite bootstrap's CSS */
+        margin-bottom: 0;
+    }
+
+    ol, ul {
+
+        /* to overwrite bootstrap's CSS */
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+/* /reset rules */
+
+/* rules used or usable in different parts of the page */
+/* /rules used or usable in different parts of the page */
+
+/* rules used in specific parts of the page */
+    html {
+
+        /* to make a reference for the percentage heights of thix box's children */
+        height: 100%;
+
+        font-size: 14px;
+    }
+    
+    body {
+
+        /* to make a reference for the percentage heights of thix box's children */
+        height: 100%;
+
+        font-family: sans-serif;
+    }
+/* /rules used in specific parts of the page */
